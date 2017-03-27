@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #303030;
+}
+
+.container{
+  width: 60%;
+  margin: auto;
+}
+
+table{
+  text-align: left;
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+  border: 3px solid black;
+}
+
+table th{
+  background-color: #3f933f;
+}
+
+table td{
+    background-color: #858687;
+}
+
+table tr{
+  border-bottom: 2px solid black;
+}
+
+form div{
+  display: inline-block;
+}
+
+fieldset{
+    background-color: #858687;
+    border: 3px solid black;
+}
+
+h1{
+  text-align: center;
+  color:#3f933f;
+  text-shadow: 2px 2px #000000;
+  margin-bottom:3px;
+}
+
+#addExercise, .delete, .edit, .update{
+  background-color: #3f933f;
+  border: 2px solid #265926;
+  text-transform: uppercase;
+  padding: 3px 5px;
+  margin:3px;
+  display: inline-block;
+  float: right;
+}
+
+
+
+h3{
+  color: #D9D9D9;
+  margin-bottom: 3px;
+  margin-top: 60px;
+}
+
+h4 {
+    text-align: center;
+    color: #D9D9D9;
+    margin-top:0;
+}
+
+ input,select{
+  padding: 4px 0px;
+}
+
+.num-input{
+  max-width: 50px;
+}
+
+.add-form div{
+  margin: 7px 15px 7px 0 ;
+}
+.add-form input{
+
+  border: 1px solid black;
+}
+
+#addExercise{
+  float:right;
+  padding: 5px 10px;
+}
